@@ -9,8 +9,6 @@
 
 #define quote(S) ("\"" S "\"")
 #define base "https://fiks.fit.cvut.cz/api/v1"
-#define boundary "---------------------------419656455689383822581148678"
-#define subm_start (boundary"\nContent-Disposition: form-data; name=\"outputFile\"; filename=\"output.txt\"\nContent-Type: text/plain\n")
 #define ARMED
 
 /*************************\
